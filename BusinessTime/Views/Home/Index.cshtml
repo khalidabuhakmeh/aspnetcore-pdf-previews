@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">👨‍💼 Serious Business App</h1>
+    
+    <h2>Quarterly Sales Results</h2>
+    <p style="font-size: 10em">📈</p>
+
+    <a class="btn btn-primary"
+       asp-controller="Files"
+       asp-action="Download">
+        Download PDF
+    </a>
+    
+    <a class="btn btn-primary"
+       asp-controller="Files"
+       asp-action="Show"
+       >
+        Preview PDF
+    </a>
+</div>
